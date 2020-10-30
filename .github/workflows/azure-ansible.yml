@@ -19,8 +19,6 @@ jobs:
       - name: (HELPER) Checkout Code
         uses: actions/checkout@v2
       
-      - name: Install deps
-
       - name: Lint Role 
         uses: github/super-linter@v3
         env:
