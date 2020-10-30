@@ -1,11 +1,11 @@
-name: aws-ansible
+name: azure-ansible
 
 # Run this workflow only on pushes 
 # to the cloud_AWS/ansible directory
 on:
   push:
     paths: 'cloud_Azure/ansible/**'
-    branches: [ test-with-ci ]
+    branches: [ master ]
   pull_request:
     branches: [ master ]
 
